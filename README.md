@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app
-![desktop-design](https://user-images.githubusercontent.com/77191306/173112356-c50389e4-1dc7-4377-bb4a-60496db92a87.jpg)
 
+![desktop-design](https://user-images.githubusercontent.com/77191306/173112356-c50389e4-1dc7-4377-bb4a-60496db92a87.jpg)
 
 ## Welcome! 👋
 
@@ -33,4 +33,4 @@ This is how the project looks like on my desktop
 
 ## Deployment
 
-You could find the live site here [here]()
+You could find the live site here [here](https://advice-generator-app-gray.vercel.app/)
