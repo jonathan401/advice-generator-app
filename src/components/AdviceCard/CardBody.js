@@ -7,11 +7,7 @@ const CardBody = ({ advice }) => {
   return (
     <div className="card-body">
       <p className="advice">
-        <q>
-          {/* When you look around and don't see anyone you respect, its time to
-            leave. */}
-          {advice}
-        </q>
+        <q>{advice}</q>
       </p>
       <div className="divider">
         <picture>
