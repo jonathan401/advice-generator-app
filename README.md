@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app
+![desktop-design](https://user-images.githubusercontent.com/77191306/173112356-c50389e4-1dc7-4377-bb4a-60496db92a87.jpg)
 
-![Design preview for the Advice generator app coding challenge](./src/assets/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -29,8 +29,8 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ## What it looks like
 
 This is how the project looks like on my desktop
-![project screenshot](../assets/images/project-screenshot.JPG)
+![project-screenshot](https://user-images.githubusercontent.com/77191306/173112269-76a5f247-0002-40a7-ad8b-168147b5c6b4.JPG)
 
 ## Deployment
 
-You could find the live site here []()
+You could find the live site here [here]()
