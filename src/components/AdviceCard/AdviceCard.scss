@@ -1,0 +1,73 @@
+@import '../../assets/styles/variables';
+
+.card {
+  background-color: $dark-grayish-blue;
+  position: relative;
+  @include flex-display(column, center, center);
+  border-radius: $border-radius;
+  text-align: center;
+  padding: 1rem 0.7rem;
+  max-width: 375px;
+
+  header {
+    color: $neon-green;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.2rem;
+  }
+
+  & .advice {
+    font-size: 0.7rem;
+    margin: 1rem 0;
+    color: $light-cyan;
+  }
+
+  & .divider img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  & .dice {
+    outline: none;
+    background-color: $neon-green;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    @include flex-display(row, center, center);
+    border: none;
+    padding: 0.6rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+    & img.rotate {
+      animation: rotate 1s linear infinite;
+    }
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 20px $neon-green;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .card {
+    max-width: 18rem;
+    padding: 1.5rem 0.4rem;
+
+    & .advice {
+      font-size: 0.8rem;
+      margin: 1.2rem;
+    }
+  }
+}
