@@ -29,7 +29,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ## What it looks like
 
 This is how the project looks like on my desktop
-![](../assets/images/project-screenshot.JPG)
+![project screenshot](../assets/images/project-screenshot.JPG)
 
 ## Deployment
 
