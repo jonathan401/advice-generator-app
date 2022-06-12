@@ -33,4 +33,4 @@ This is how the project looks like on my desktop
 
 ## Deployment
 
-You could find the live site here [here](https://advice-generator-app-gray.vercel.app/)
+You could find the live site [here](https://advice-generator-app-gray.vercel.app/)
